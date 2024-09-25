@@ -1,6 +1,6 @@
 package main
 
-import "github.com/iangcarroll/cookiemonster/pkg/monster"
+import "github.com/dwisiswant0/cookiemonster/pkg/monster"
 
 func handleResign(cookie *monster.Cookie) {
 	if *resignFlag != "" {

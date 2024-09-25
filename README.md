@@ -26,7 +26,7 @@ It's worth emphasizing that CookieMonster finds vulnerabilities in users of fram
 To install CookieMonster, install Go and then install the CLI:
 
 ```bash
-go install github.com/iangcarroll/cookiemonster/cmd/cookiemonster@latest
+go install github.com/dwisiswant0/cookiemonster/cmd/cookiemonster@latest
 ```
 
 CookieMonster only needs two essentials: a cookie to try and unsign, and a wordlist to use. If you don't have a wordlist, CookieMonster ships with a default wordlist from the [Flask-Unsign](https://github.com/Paradoxis/Flask-Unsign) project. CookieMonster wordlists are a bit different; each line must be encoded with base64. This is because Python projects are especially liberal with inserting garbage bytes into these keys, and we need to be able to properly handle them.
@@ -64,7 +64,7 @@ CookieMonster exposes `pkg/monster`, which allows other applications to easily t
 
 ```go
 import (
-    "github.com/iangcarroll/cookiemonster/pkg/monster"
+    "github.com/dwisiswant0/cookiemonster/pkg/monster"
     "errors"
 )
 

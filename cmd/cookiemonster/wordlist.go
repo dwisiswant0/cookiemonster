@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/iangcarroll/cookiemonster/pkg/monster"
+	"github.com/dwisiswant0/cookiemonster/pkg/monster"
 )
 
 func loadWordlist() *monster.Wordlist {
